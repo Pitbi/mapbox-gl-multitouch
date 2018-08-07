@@ -5,6 +5,7 @@ Mapbox issue: [Support multitouch two-finger panning](https://github.com/mapbox/
 
 ```javascript
     import MultiTouch from 'mapbox-gl-multitouch';
+    
     map.addControl(new MultiTouch());
 ```
 
