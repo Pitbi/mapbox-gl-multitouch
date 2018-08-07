@@ -68,9 +68,11 @@ var MultiTouch = function () {
     key: 'onAdd',
     value: function onAdd(map) {
       this.map = map;
+      this.container = document.createElement('div');
       this.map.getContainer().addEventListener('touchstart', this.touchStart, false);
       this.map.getContainer().addEventListener('touchmove', this.touchMove, false);
       if ('ontouchstart' in document.documentElement) map.dragPan.disable();
+      return this.container;
     }
   }, {
     key: 'onRemove',
