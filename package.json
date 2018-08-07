@@ -1,6 +1,6 @@
 {
   "name": "mapbox-gl-multitouch",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Two-finger panning for mapbox-gl-js",
   "main": "./dist/main.js",
   "scripts": {
