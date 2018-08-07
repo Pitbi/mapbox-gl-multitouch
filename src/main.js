@@ -47,7 +47,7 @@ class MultiTouch {
 
     this.state.panStart.x = x / event.touches.length;
     this.state.panStart.y = y / event.touches.length;
-    this.state.mapbox.panBy([movex / -1, movey / -1], { animate: false });
+    this.map.panBy([movex / -1, movey / -1], { animate: false });
   }
 
   onAdd(map) {
